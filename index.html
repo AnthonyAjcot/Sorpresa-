@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Sofía Ximena 💖</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #ffdde1, #ee9ca7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        background: white;
+        padding: 25px;
+        border-radius: 20px;
+        width: 90%;
+        max-width: 400px;
+        text-align: center;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .cat {
+        font-size: 60px;
+    }
+
+    h1 {
+        color: #ff4d6d;
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+        color: #333;
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 15px;
+        background: #ff4d6d;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #ff2e55;
+    }
+
+    #sorpresa {
+        display: none;
+        margin-top: 20px;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 10px;
+        color: #ff2e55;
+        font-weight: bold;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+
+    <div class="cat">🐱💖</div>
+
+    <h1>Para Sofía Ximena</h1>
+
+    <p>
+        Amor de mi vida hice esto pensando en ti.<br><br>
+
+        Cada canción fue elegida con cariño, porque siempre estás en mi mente, 
+        mi princesa. Insticciones: Debes de leer cada inicial de cada cancion y decicifraras el mensaje ✨ <br><br>
+
+        Te amo muchísimo ❤️
+    </p>
+
+    <button onclick="mostrarSorpresa()">Sorpresa</button>
+
+    <div id="sorpresa">
+        <p>Este es mi regalo para ti 🎶💖</p>
+        <a href="https://open.spotify.com/playlist/3yRHnOkvAS0i4TV1Ws63Hd?si=Vm5_562mRpeBOjGtzEGfwA&pi=ay96oztrQSai1" target="_blank">
+            Abrir playlist 💕
+        </a>
+    </div>
+
+</div>
+
+<script>
+function mostrarSorpresa() {
+    document.getElementById("sorpresa").style.display = "block";
+}
+</script>
+
+</body>
+</html>
